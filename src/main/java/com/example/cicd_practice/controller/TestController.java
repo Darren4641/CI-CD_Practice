@@ -10,7 +10,7 @@ public class TestController {
 
     @RequestMapping("/test")
     public String test() {
-        return "docker-jenkins-test22";
+        return "docker-jenkins-test12412";
     }
 
 
