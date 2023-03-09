@@ -13,6 +13,10 @@ public class TestController {
         return "docker-jenkins-test12412";
     }
 
+    @RequestMapping("/")
+    public String mainMathod() {
+        return "도커-젠킨스 성공";
+    }
 
     //젠킨스 트리거 테스트 + Docker
     //pp
